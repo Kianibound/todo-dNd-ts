@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import InputFields from "./components/Input/InputFields";
 
 const App: React.FC = () => {
   return (
@@ -7,6 +8,7 @@ const App: React.FC = () => {
       <header>
         <h1 className="heading">Testify</h1>
       </header>
+      <InputFields />
     </div>
   );
 };
