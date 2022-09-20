@@ -21,7 +21,8 @@ const App: React.FC = () => {
     }
   };
 
-  console.log(todos);
+  console.table(todos);
+
   return (
     <div className="App">
       <header>

@@ -15,6 +15,7 @@ const InputFields: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
         handleAdd(e);
         inputRef.current?.blur();
       }}
+      className="form-container"
     >
       <input
         type="input"
